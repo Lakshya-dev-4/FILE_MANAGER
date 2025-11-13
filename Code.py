@@ -8,7 +8,7 @@ class FileManager:
         self.base_dir = base_dir
 
     def greet(self):
-        print('\n', "FILE MANAGER".center(50, '◇'), '\n')
+        print('\n', "FILE MANAGER".center(50, '~'), '\n')
 
     def add_item(self):
         timestamp = dt.now().strftime("[%H:%M:%S]") 	
